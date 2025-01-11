@@ -6,3 +6,4 @@ featurizer.py defines two classes, AudioFeaturizer and KaldiFbank, for extractin
 
 This config.yml file sets up an audio classification pipeline, specifying dataset handling, preprocessing (using Fbank features), and model training configurations. 
 
+The AudioDetectionnetwork.py file defines a deep neural network for audio classification that combines Convolutional Neural Networks (CNNs) with Channel and Spatial Attention mechanisms (CBAM) to improve feature extraction. The model applies multiple convolutional blocks, followed by fully connected layers, to classify audio input into target classes.
